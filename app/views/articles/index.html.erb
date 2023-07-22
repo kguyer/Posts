@@ -1,0 +1,18 @@
+<h1>Articles</h1>
+
+<ul>
+  <% @articles.each do |article| %>
+    <li>
+      <%= link_to article.title, article %>
+    </li>
+  <% end %>
+</ul>
+
+<% if user_signed_in? %>
+  <p>Create a new post <%= link_to "here", new_article_path %></p>
+  <p>Sign out <%= link_to "here", destroy_user_session_path, :method => :delete %></p>
+<% end %>
+
+<% if !user_signed_in? %>
+  <p>Sign in <%= link_to "here", user_session_path %></p>
+<% end %>
