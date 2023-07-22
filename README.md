@@ -10,7 +10,7 @@ This uses version 7.0.5.
 Use `rails -v` to see your system version
 
 ### Setup
-1. Clone the repo `git clone https://github.com/kguyer/Blog.git`
+1. Clone the repo `git clone https://github.com/kguyer/Posts`
 
 2. Setup the database `bin/rails db:setup`
 
