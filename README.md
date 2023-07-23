@@ -20,7 +20,7 @@ Use `rails -v` to see your system version
 4.9
 
 ### Database
-Postgresql
+Postgresql. Configure this to match your created database
 
 ### Setup
 1. Clone the repo `git clone https://github.com/kguyer/Posts`
