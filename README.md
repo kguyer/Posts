@@ -1,13 +1,26 @@
 # Posts Project
-This app lets you create, edit, or delete posts and make comments if you are signed in. I used the devise gem to add the sign in function. If you are not signed in you can see the posts and make comments. The edit and delete links will be hidden unless you sign in.
+
+### Features
+While signed in:
+- Users can create, edit, and delete posts
+- Users can create and delete comments
+
+While signed out:
+- Users can view posts and create comments
 
 ### Ruby Version
-This uses version 3.2.2. 
+3.2.2. 
 Use `ruby -v` to see your system version
 
 ### Rails version
-This uses version 7.0.5.
+7.0.5.
 Use `rails -v` to see your system version
+
+### Devise Gem Version
+4.9
+
+### Database
+Postgresql
 
 ### Setup
 1. Clone the repo `git clone https://github.com/kguyer/Posts`
