@@ -1,31 +1,37 @@
 # Posts Project
 
+### Source
+`https://www.theodinproject.com/lessons/ruby-on-rails-blog-app`  
+This app implements more than what was required for this project.
+
 ### Features
-While signed in:
+When signed in:
 - Users can create, edit, and delete posts
 - Users can create and delete comments
 
-While signed out:
+When signed out:
 - Users can view posts and create comments
 
 ### Ruby Version
-3.2.2. 
+Version 3.2.2  
 Use `ruby -v` to see your system version
 
 ### Rails version
-7.0.5.
+Version 7.0.5  
 Use `rails -v` to see your system version
 
 ### Devise Gem Version
-4.9
+Version 4.9  
+To add the Devise gem check out the README here `https://github.com/heartcombo/devise`
 
 ### Database
-Postgresql. Configure this to match your created database
+Postgresql  
+Make sure you have Postgres installed on your machine. You can follow the instructions here `https://www.theodinproject.com/lessons/ruby-on-rails-installing-postgresql`
 
 ### Setup
 1. Clone the repo `git clone https://github.com/kguyer/Posts`
 
-2. Setup the database `bin/rails db:setup`
+2. Setup the database `bin/rails db:setup`, then migrate `bin/rails db:migrate`
 
 3. Start the server `rails server`
 
