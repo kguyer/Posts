@@ -1,7 +1,7 @@
 # Posts Project
 
 ### Source
-`https://www.theodinproject.com/lessons/ruby-on-rails-blog-app`  
+https://www.theodinproject.com/lessons/ruby-on-rails-blog-app   
 This app implements more than what was required for this project.
 
 ### Features
@@ -22,11 +22,11 @@ Use `rails -v` to see your system version
 
 ### Devise Gem Version
 Version 4.9  
-To add the Devise gem check out the README here `https://github.com/heartcombo/devise`
+To add the Devise gem check out the README here https://github.com/heartcombo/devise
 
 ### Database
 Postgresql  
-Make sure you have Postgres installed on your machine. You can follow the instructions here `https://www.theodinproject.com/lessons/ruby-on-rails-installing-postgresql`
+Make sure you have Postgres installed on your machine. You can follow the instructions here https://www.theodinproject.com/lessons/ruby-on-rails-installing-postgresql
 
 ### Setup
 1. Clone the repo `git clone https://github.com/kguyer/Posts`
